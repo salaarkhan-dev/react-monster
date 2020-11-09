@@ -1,6 +1,5 @@
 .cardlist {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
   margin: 50px;
-  grid-gap: 20px;
+  flex-wrap: wrap;
 }
