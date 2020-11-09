@@ -7,6 +7,26 @@ h1 {
   font-size: 72px;
   color: #0ccac4;
 }
+a {
+  color: #0ccac4;
+}
+
+a span {
+  color: #0ccac4;
+  font-weight: bold;
+}
+.footer {
+  color: #0ccac4;
+  font-weight: 500;
+}
+
+.footer-icon {
+  height: 1em;
+  width: 1em;
+  margin: 0px 0.05em 0px 0.1em;
+  vertical-align: -0.1em;
+  margin: 0 0.5rem;
+}
 
 .App-logo {
   height: 40vmin;

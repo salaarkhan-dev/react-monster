@@ -35,6 +35,23 @@ class App extends Component {
           handleChange={this.handleChange}
         />
         <CardList monsters={filteredMonsters} />
+        <p className="footer">
+          © Created with
+          <img
+            className="footer-icon"
+            alt="❤️"
+            draggable="false"
+            src="https://twemoji.maxcdn.com/2/72x72/2764.png"
+          />
+          by&nbsp;
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.facebook.com/salaar.khan.7927408/"
+          >
+            <span>Salaar Khan</span>
+          </a>
+        </p>
       </div>
     );
   }
